@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1 text-success-emphasis">konkobla</span>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="https://meryc1xmas-w.w3spaces.com/Konkobla.html">Home</a>
+    </li>
+    <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    member</a>
+    <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="https://meryc1xmas.w3spaces.com/myprofileme.html">Pang</a></li>
+    <li><a class="dropdown-item" href="https://treeruch.w3spaces.com/personalinformation.html">Dan</a></li>
+    <li><a class="dropdown-item" href="https://saibiew.w3spaces.com/myprofile.html">Tan</a></li>
+    <li><a class="dropdown-item" href="https://tulatung.w3spaces.com/tun-file.html">Tul</a></li>
+    <li><a class="dropdown-item" href="https://arada-w.w3spaces.com/myprofile.html">Bew</a></li>
+    <li><hr class="dropdown-divider"></li>
+    </ul>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </nav> 
+    <div class="p-3 mb-2 bg-light-subtle text-emphasis-light">
+        <h1 class="text-success-emphasis text-center"> Personal Information</h1><br>
+            <table class="table bg-success bg-opacity-10">
+                <img src="img/boxcat.jpg" class="rounded mx-auto d-block" width="250" height="300"><br>
+                <thead class="table-success">
+                    <tr><th>Personal Record</th><th></th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Name</td><td>Natchaya Vimooktalop</td></tr>  
+                    <tr><td>Nick name</td><td>Pang</td></tr>
+                    <tr><td>Birthday is/<td> 4 September 2003</td></tr> 
+                    <tr><td>Year</td><td>19 ปี</td></tr>
+                    <tr><td>Address</td><td>เลขที่ 46 ถ.ราชมรรคาใน ต.พระปฐมเจดีย์ อ.เมือง จ.นครปฐม 73000</td></tr>
+                </tbody>
+                <thead class="table-success">
+                    <tr><th>Education</th><th></th></tr> 
+                </thead>
+                <tbody>
+                    <tr><td>Current Education</td><td>ศึกษาอยู่คณะวิทยาศาสตร์ สาขาเทคโนโลยีสารสนเทศ มหาวิทยาลัยศิลปากร วิทยาเขตพระราชวังสนามจันทร์</td></tr>
+                </tbody>
+                <thead class="table-success">
+                    <tr><th>Contact </th><th></th></tr>
+                </thead>
+                <tbody>
+                  <tr><td>IG</td><td>merc1lonr</td></tr>
+                  <tr><td>Email</td><td>vimooktalop_n@silpakorn.edu</td></tr>
+                  <tr><td></td><td>vimooktalop_n@su.ac.th</td></tr>
+                </tbody>
+                <thead class="table-success">
+                    <tr><th>Other</th><th></th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>Hobby</td><td>อ่านนิยาย ถ่ายรูป ฟังเพลง อ่านภาษา</td></tr>
+                </tbody>
+                </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    </body>
+</html>
+cdn.jsdelivr.net
+คุณส่ง
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container-fluid">
+        <h1>This is a Heading</h1>
+        <p>This is a paragraph</p>
+        <div class="row">
+            <div class="col-sm-4" style="background-color:#FFAAAA;">1</div> 
+            <div class="col-sm-4" style="background-color:#AAFFAA;">2</div> 
+            <div class="col-sm-4" style="background-color:#AAAAFF;">3</div>
+        </div>
+        <table class="table table-striped"> 
+        <tr><th>ID</th><th>Name</th><th>City</th></tr> หัวตารราง
+        <tr><td>1</td><td>Choopan</td><td>Nonthaburi</td></tr> 
+        <tr><td>2</td><td>Suphot</td><td>Samutprakan</td></tr> 
+        <tr><td>3</td><td>Damrongkiat</td><td>Bangkok</td></tr> 
+        </table>
+
+ <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">First</th>
+      <th scope="col">Last</th>
+      <th scope="col">Handle</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Mark</td>
+      <td>Otto</td>
+      <td>@mdo</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>Jacob</td>
+      <td>Thornton</td>
+      <td>@fat</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td colspan="2">Larry the Bird</td>
+      <td>@twitter</td>
+    </tr>
+  </tbody>
+</table>
+<img src="img/cat_.jpg" width="200" height="250">
+<img src="img/cat_.jpg" class="rounded" width="200" height="250">
+<img src="img/cat_.jpg" class="rounded-circle" width="200" height="250"> 
+<img src="img/cat_.jpg" class="img-thumbnail" width="200" height="200">
+
+<img src="https://saibiew.w3spaces.com/img/5mxei9.jpg" width="200" height="250"> 
+<img src="https://arada-w.w3spaces.com/img/ponyo.jpg" class="rounded" width="200" height="250"> 
+<img src="https://tulatung.w3spaces.com/img/face.jpg"  class="rounded-circle" width="200" height="200">
+<img src="https://treeruch.w3spaces.com/img/maxresdefault.jpg" class="rounded-circle" width="200" height="250"> 
+<img src="img/cat_.jpg" class="img-thumbnail" width="200" height="200"> 
+<div class="alert alert-success">
+    <strong>Success!</strong> Indicates a successful or positive action.
+</div>
+<div class="alert alert-info">
+    <strong>Info!</strong> Indicates a neutral informative change or action. </div>
+<div class="alert alert-warning">
+    <strong>Warning!</strong> Indicates a warning that might need attention. </div>
+<div class="alert alert-danger">
+    <strong>Danger!</strong> Indicates a dangerous or potentially negative action. </div>
+</div>
+
+<button type="button" class="btn">Basic</button>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-secondary">Secondary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-dark">Dark</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-link">Link</button>
+
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
+cdn.jsdelivr.net
+คุณส่ง
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Konkobla</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">House</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">connect</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Members
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Arada</a></li>
+            <li><a class="dropdown-item" href="#">Tulatung</a></li>
+            <li><a class="dropdown-item" href="#">Treeruch</a></li>
+            <li><a class="dropdown-item" href="#">Danaitorn</a></li>
+            <li><a class="dropdown-item" href="#">All members</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="https://www.cp.su.ac.th/image/crop/327" class="card-img-top" alt="Kalaya Tatong">
+      <div class="card-body">
+        <h5 class="card-title">กัลยา ตาทอง</h5>
+        <p class="card-text">นักวิชาการอุดมศึกษาชำนาญการ</p>
+        <a href="https://www.cp.su.ac.th/staff/2" class="https://www.cp.su.ac.th/staff/2">Staff Detail</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://www.cp.su.ac.th/image/crop/926" class="card-img-top" alt="Kitsana Jancharoen">
+      <div class="card-body">
+        <h5 class="card-title">กฤษณา จันทร์เจริญ</h5>
+        <p class="card-text">นักวิชาการอุดมศึกษา (ประจำหลักสูตรวิทยาการข้อมูล)</p>
+        <a href="https://www.cp.su.ac.th/staff/9" class="https://www.cp.su.ac.th/staff/9">Staff Detail</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://www.cp.su.ac.th/image/crop/329" class="card-img-top" alt="Prawim Luangsamankul">
+      <div class="card-body">
+        <h5 class="card-title">ประวิม เหลืองสมานกุล</h5>
+        <p class="card-text">นักวิชาการอุดมศึกษาปฏิบัติการ</p>
+        <a href="https://www.cp.su.ac.th/staff/1" class="https://www.cp.su.ac.th/staff/1">Staff Detail</a>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="https://www.cp.su.ac.th/image/crop/925" class="card-img-top" alt="Waranthorn Sonsa-nguan">
+      <div class="card-body">
+        <h5 class="card-title">วรันธร สอนสงวน</h5>
+        <p class="card-text">นักวิชาการอุดมศึกษา</p>
+        <a href="https://www.cp.su.ac.th/staff/8" class="https://www.cp.su.ac.th/staff/8">Staff Detail</a>
+</p>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
+cdn.jsdelivr.net
+4 ก.พ. 2023 12:11
+คุณส่ง
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"> Indy Vibe Songs<a></h3>
+    
+  
+  </div>
+</nav>
+<h2 class="text-center text-success-emphasis"> Indy Songs of 2022</h2>
+    <div class="text-info-emphasis">  
+      <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
+        <div class="card" >
+          <img src="https://th.bing.com/th/id/OIP.kimR1JqhzuSH7uuCT-injwFeFe?w=161&h=180&c=7&r=0&o=5&dpr=1.4&pid=1.7" class="card-img-top" alt="...">
+          <div class="card-body bg-body-secondary">
+            <h5 class="card-title">ผู้ถูกเลือกให้ผิดหวัง</h5>
+            <p class="card-text">เรนิษรา</p>
+            <a href="https://youtu.be/agPF9Eptt1s" class="btn btn-primary">Listen</a>
+            
+          </div>
+        </div>
+        <div class="card" >
+          <img src="https://th.bing.com/th/id/OIP.aX5uk0tiftuauc7R1x0-iwHaDt?pid=ImgDet&rs=1" class="card-img-top" alt="...">
+          <div class="card-body bg-body-secondary">
+            <h5 class="card-title">เคย</h5>
+            <p class="card-text">Loserpop</p>
+            <a href="https://youtu.be/qwH5PJdt91o" class="btn btn-primary">Listen</a>
+            
+          </div>
+        </div>
+        <div class="card" >
+          <img src="https://i1.sndcdn.com/artworks-000571323068-rydan6-t500x500.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-body-secondary">
+            <h5 class="card-title">ข้างกาย</h5>
+            <p class="card-text">Safeplanet</p>
+            <a href="https://youtu.be/4xvSFYbVa0U" class="btn btn-primary">Listen</a>
+            
+          </div>
+        </div>
+       <div class="card" >
+          <img src="https://www.fungjaizine.com/wp-content/uploads/2019/10/yew-cover-768x384.jpg" class="card-img-top" alt="...">
+          <div class="card-body bg-body-secondary">
+            <h5 class="card-title">หมวกเมฆสีรุ้ง</h5>
+            <p class="card-text">Yew</p>
+            <a href="https://youtu.be/SJNFhQ1gdLo" class="btn btn-primary">Listen</a>
+            
+          </div>
+        </div>
+       <div class="card" >
+          <img src="https://th.bing.com/th/id/OIP.91YyoPyndlRBbN-ZreFmnQAAAA?pid=ImgDet&rs=1" class="card-img-top" alt="...">
+          <div class="card-body bg-body-secondary">
+            <h5 class="card-title">Wish</h5>
+            <p class="card-text">Blackbeans</p>
+            <a href="https://youtu.be/ww6ykF2ktaI" class="btn btn-primary">Listen</a>
+            
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
